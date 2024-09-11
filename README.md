@@ -1,6 +1,10 @@
 # ✨ Os Padrinhos Mágicos - Projeto Web ✨
 
-Bem-vindo ao **projeto web** inspirado no desenho animado **Os Padrinhos Mágicos**! 🧚‍♂️🧚‍♀️ Aqui você encontra uma página simples e responsiva que destaca alguns episódios icônicos do show.
+Bem-vindo ao **projeto web** inspirado no desenho animado **Os Padrinhos Mágicos**! 🧚‍♂️🧚‍♀️ Aqui você encontra uma página simples que destaca alguns episódios icônicos do show.
+
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/f5167f6c-4cce-4388-a640-7a7c24367c6d" width="700">
+</p>
 
 ## 🚀 Funcionalidades
 
