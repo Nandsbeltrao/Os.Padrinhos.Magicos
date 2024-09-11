@@ -1,0 +1,145 @@
+@mixin flexbox(){
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #181818;
+    font-family: "Inter", sans-serif;
+    color: #ffffff;
+}
+
+
+header{
+    background-color: #111111;
+    @include flexbox();
+    align-items: center;
+
+    img{
+        margin-left: 5rem;
+        margin-top: 1rem;
+        padding: 1.3rem;
+        height: 11vh;
+        width: 12vw;
+    }
+
+    button{
+        margin-right: 3.5rem;
+        font-size: 1rem;
+        cursor: pointer;
+        
+    }
+
+    .botao1{
+        padding: 0.7rem 2rem;
+        background-color: #DF0712;
+        border-radius: 10px;
+        color: white;
+        font-family: "inter", sans-serif;
+        font-weight: 600;
+        font-size: 1.1rem;
+    }
+
+    .botao2{
+        background-color: #111111;
+        padding: 0.7rem 1.5rem;
+        border: white solid;
+        border-radius: 7px;
+        font-family: "inter", sans-serif;
+        font-weight: 600;
+        color: white;
+        
+    }
+}
+
+main{
+    margin: 6rem;
+    margin-top: 0.5rem;
+}
+
+.titulo{
+    @include flexbox();
+    
+    div{
+        margin-top: 7rem;
+        margin-left: 13rem;
+
+        h1{
+            font-size: 3rem;
+            font-weight: 600;
+        }
+
+        h2{
+            font-weight: 400;
+            font-size: 2.5rem;
+        }
+    }
+
+    img{
+        margin-right: 8rem;
+        margin-top: 4rem;
+        width: 7vw;
+        height: 15vh;
+    }
+}
+
+.episodios{
+    @include flexbox();
+    justify-content: space-evenly;
+    margin-left: 4rem;
+
+    div{
+        margin-top: 2rem;
+        font-size: 1rem;
+
+        
+        img{
+            width: 20vw;
+        }
+
+        h2{
+            width: 20vw;
+        }
+        p{
+            width: 15vw;
+            margin-top: 1rem;
+        }
+    }
+}
+
+footer{
+    background-color: #111111;
+    padding: 1rem 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+
+    ul{
+        list-style: none;
+        display: flex;
+        margin-left: 4rem;
+
+        li{
+            margin: 1rem;
+        }
+        
+
+
+    
+    }
+}
